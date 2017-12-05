@@ -46,15 +46,34 @@ header nav li:last-child {
   padding: 32px 24px;
 }
 
-/*.banner-image img {
-  display: block;
-  max-width: 100%;*/
-}
-
  .banner-description {
    align-items: center;
  }
 
 .banner-description h1 {
   font-size: 38px;
+}
+
+#main-info {
+  width: 100%;
+  height: auto;
+  background-color: yellow;
+}
+
+.main {
+  display: flex;
+  width: 60%;
+  padding: 32px 24px;
+}
+
+#academy-courses {
+  width: 100%;
+  height: auto;
+  background-color: green;
+}
+
+#exhibits {
+  width: 100%;
+  height: auto;
+  background-color: blue;
 }
